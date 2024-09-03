@@ -21,6 +21,7 @@ class HomeScreen extends StatelessWidget {
           } else if (state is InternetLostState) {
             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
               content: Center(child: Text("Not Connected")),
+              //om
               backgroundColor: Colors.red,
             ));
           }
